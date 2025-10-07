@@ -66,38 +66,4 @@ Then in config.py, switch the model provider:
 ```
 USE_GROQ = False  # Set to False to use Ollama
 ```
-## Folder architecture
-AI-Powered-Contract-Processing-System /
-│
-├── README.md
-├── requirements.txt
-├── .env.example
-│
-├── app/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── config.py
-│   │
-│   ├── routers/
-│   │   ├── __init__.py
-│   │   └── contract.py
-│   │
-│   ├── services/
-│   │   ├── __init__.py
-│   │   ├── llm_client.py
-│   │   ├── parser.py
-│   │   ├── redactor.py
-│   │   ├── summarizer.py
-│   │   └── risk_calculator.py
-│   │
-│   ├── utils/
-│   │   ├── __init__.py
-│   │   └── logger.py
-│   │
-│   └── models/
-│       ├── __init__.py
-│       └── schema.py
-│
-└── tests/
-    ├── __init__.py
-    └── test_contract_agent.py
+t_agent.py
